@@ -42,13 +42,15 @@
     .menu-button span:nth-child(2) { top: 12px; }
     .menu-button span:nth-child(3) { top: 24px; }
     .menu-button.active span:nth-child(1) {
-      transform: rotate(45deg); top: 12px;
+      transform: rotate(45deg);
+      top: 12px;
     }
     .menu-button.active span:nth-child(2) {
       opacity: 0;
     }
     .menu-button.active span:nth-child(3) {
-      transform: rotate(-45deg); top: 12px;
+      transform: rotate(-45deg);
+      top: 12px;
     }
     .menu-items {
       max-height: 0;
@@ -153,8 +155,8 @@
       <span></span><span></span><span></span>
     </div>
     <div class="menu-items" id="menu-items">
-      <a href="index.html">Home</a>
-      <a href="devil-fruit.html" class="active">Devil Fruit</a>
+      <a href="https://freshy1064.github.io/Fresh/" class="active">Home</a>
+      <a href="devil-fruit.html">Devil Fruit</a>
       <a href="character.html">Character</a>
       <a href="story.html">Story</a>
     </div>
