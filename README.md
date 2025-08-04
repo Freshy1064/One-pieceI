@@ -84,7 +84,7 @@
   <nav>
     <ul id="menu-items">
       <li><a href="https://freshy1064.github.io/Fresh/">Home</a></li>
-      <li><a href="#" class="active">Devil Fruits</a></li>
+      <li><a href="devilfruits.html" class="active">Devil Fruits</a></li>
       <li><a href="crew.html">Straw Hat Crew</a></li>
     </ul>
   </nav>
@@ -109,7 +109,6 @@
     <p>Devil Fruits are rare, powerful, and mysterious — and the deeper the sea, the more secrets they hold. But every user must sacrifice their ability to swim forever.</p>
   </section>
 
-  <!-- Menu toggle script stays here, as you originally gave -->
   <script>
     const menuButton = document.getElementById('menu-button');
     const menuItems = document.getElementById('menu-items');
