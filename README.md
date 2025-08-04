@@ -92,7 +92,7 @@
   <section>
     <h3>Most Powerful Devil Fruits</h3>
     <ul>
-      <li><strong>Magu Magu no Mi</strong> – Akainu: Overwhelmingly hot magma powers.</li>
+      <li><strong>Magu Magu no Mi</strong> – Overwhelmingly hot magma powers (Akainu).</li>
     </ul>
 
     <h3>Other Known Fruits</h3>
@@ -109,16 +109,16 @@
     <p>Devil Fruits are rare, powerful, and mysterious — and the deeper the sea, the more secrets they hold. But every user must sacrifice their ability to swim forever.</p>
   </section>
 
+  <!-- Menu toggle script stays here, as you originally gave -->
   <script>
     const menuButton = document.getElementById('menu-button');
     const menuItems = document.getElementById('menu-items');
-
     menuButton.addEventListener('click', () => {
+      menuButton.classList.toggle('active');
       menuItems.classList.toggle('active');
     });
-
     menuButton.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') {
+      if(e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         menuButton.click();
       }
